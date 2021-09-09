@@ -1,0 +1,11 @@
+some_list = [3, 5, 7, 9, 10.5]
+print(some_list)
+some_list.append('Python')
+L_list = len(some_list)
+print(L_list)
+print(some_list[0])
+print(some_list[-1])
+print(some_list[1:4])
+print(some_list.index(10.5))
+some_list.remove('Python')
+print(some_list)
